@@ -1,0 +1,39 @@
+# Data and results
+data/raw/*.zip
+data/processed/*.csv
+data/graph/*.csv
+results/
+notebooks/*.pkl
+*.h5
+checkpoints/
+logs/
+
+# PyTorch
+*.pth
+*.pt
+torch_extensions/
+
+# Env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.DS_Store
+*.log
