@@ -1,13 +1,26 @@
+# Core DL
 torch>=2.0.0
-torch-geometric>=2.4.0
+
+# RecSys framework
+recbole>=1.2.0
+ray>=2.6.0
+
+# Data
 pandas>=2.0.0
 numpy>=1.24.0
+scipy>=1.10.0
 scikit-learn>=1.3.0
+
+# Utils
 tqdm>=4.65.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
 pyyaml>=6.0
 tensorboard>=2.13.0
 wandb>=0.15.0
-scipy>=1.10.0
-networkx>=3.1
+
+# Plotting (optional, not needed for training)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Graph libs (NOT required for BERT4Rec, remove unless needed)
+# torch-geometric>=2.4.0
+# networkx>=3.1
