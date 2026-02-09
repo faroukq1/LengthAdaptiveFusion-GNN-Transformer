@@ -20,7 +20,7 @@ wandb>=0.15.0
 # Plotting (optional, not needed for training)
 matplotlib>=3.7.0
 seaborn>=0.12.0
-
+requests>=2.26.0
 # Graph libs (NOT required for BERT4Rec, remove unless needed)
 # torch-geometric>=2.4.0
 # networkx>=3.1
