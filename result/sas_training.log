@@ -1,0 +1,20 @@
+============================================================
+Best Test Set Metrics (based on validation performance):
+============================================================
+
+Metrics @ K=10 (Sequential Recommendation Standard):
+  NDCG@10:      0.5929
+  Recall@10:    0.8262
+  Hit Rate@10:  0.8262
+  Precision@10: 0.0826
+  MRR@10:       0.5190
+  MAP@10:       0.5190
+
+Metrics @ K=20 (Graph Recommendation Standard):
+  NDCG@20:      0.6120
+  Recall@20:    0.9013
+  Hit Rate@20:  0.9013
+  Precision@20: 0.0451
+  MRR@20:       0.5243
+  MAP@20:       0.5243
+============================================================

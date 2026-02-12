@@ -1,0 +1,20 @@
+============================================================
+BERT4Rec Evaluation Results
+============================================================
+
+Metrics @ K=10 (Sequential Recommendation Standard):
+  NDCG@10:      0.7750
+  Recall@10:    0.9524
+  Hit Rate@10:  0.9524
+  Precision@10: 0.0952
+  MRR@10:       0.7176
+  MAP@10:       0.7176
+
+Metrics @ K=20 (Graph Recommendation Standard):
+  NDCG@20:      0.7829
+  Recall@20:    0.9831
+  Hit Rate@20:  0.9831
+  Precision@20: 0.0492
+  MRR@20:       0.7198
+  MAP@20:       0.7198
+============================================================
